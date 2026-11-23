@@ -1,0 +1,43 @@
+/* ===== Tema warna di atas AdminLTE ===== */
+.app-sidebar { background: linear-gradient(180deg, #2b1055 0%, #3a1c71 45%, #1e3c72 100%) !important; }
+.app-sidebar .sidebar-brand { border-bottom: 1px solid rgba(255,255,255,.15); }
+.app-sidebar .brand-icon { font-size: 1.6rem; color: #ffd200; margin-right: .5rem; }
+.app-sidebar .nav-header { color: #ffd200; font-weight: 700; letter-spacing: .08em; font-size: .72rem; }
+.app-sidebar .nav-link.active { background: linear-gradient(90deg, #ee0979, #ff6a00) !important; color: #fff !important; box-shadow: 0 3px 10px rgba(0,0,0,.3); }
+.app-sidebar .nav-link:hover { background: rgba(255,255,255,.12); }
+.page-title { font-weight: 700; color: #3a3a6a; }
+[data-bs-theme="dark"] .page-title { color: #fff; }
+
+.card { border: 0; border-radius: 1rem; box-shadow: 0 4px 14px rgba(40,40,100,.10); }
+.card-header { border-radius: 1rem 1rem 0 0 !important; color: #fff; font-weight: 600; border: 0; }
+.bg-grad-ungu { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+.bg-grad-hijau { background: linear-gradient(135deg, #11998e, #38ef7d); }
+.bg-grad-oranye { background: linear-gradient(135deg, #f7971e, #ffd200); }
+.bg-grad-merah { background: linear-gradient(135deg, #ee0979, #ff6a00); }
+.bg-grad-biru { background: linear-gradient(135deg, #00c6ff, #0072ff); }
+.card-header.bg-grad-oranye { color: #3b2c00; }
+
+.stat-card { color: #fff; border-radius: 1rem; padding: 1.25rem; position: relative; overflow: hidden; box-shadow: 0 4px 14px rgba(40,40,100,.18); }
+.stat-card .angka { font-size: 2.2rem; font-weight: 800; line-height: 1; }
+.stat-card .ikon { position: absolute; right: 1rem; top: .6rem; font-size: 3.4rem; opacity: .25; }
+.stat-card a { color: #fff; text-decoration: none; font-size: .85rem; opacity: .9; }
+
+.logo-thumb { width: 40px; height: 40px; object-fit: cover; border-radius: .6rem; }
+.logo-kosong { width: 40px; height: 40px; border-radius: .6rem; background: linear-gradient(135deg,#6a11cb,#2575fc); color: #fff; display: inline-flex; align-items: center; justify-content: center; }
+.table thead { background: #ece9fb; }
+.skor { font-weight: 800; font-size: 1.1rem; }
+
+/* ===== Halaman login & register ===== */
+.auth-bg {
+    min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 1.5rem;
+    background: linear-gradient(-45deg, #6a11cb, #2575fc, #ee0979, #ff6a00);
+    background-size: 400% 400%; animation: geser 14s ease infinite;
+}
+@keyframes geser { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+.auth-card { width: 100%; max-width: 440px; border-radius: 1.25rem; overflow: hidden; box-shadow: 0 15px 40px rgba(0,0,0,.3); background: #fff; }
+.auth-head { background: linear-gradient(135deg, #6a11cb, #2575fc); color: #fff; text-align: center; padding: 1.8rem 1rem; }
+.auth-head i { font-size: 3rem; }
+.auth-body { padding: 1.75rem; }
+.auth-body .input-group-text { background: #ece9fb; color: #6a11cb; border: 0; }
+.btn-grad { background: linear-gradient(90deg, #6a11cb, #2575fc); color: #fff; border: 0; font-weight: 600; }
+.btn-grad:hover { color: #fff; filter: brightness(1.1); }
